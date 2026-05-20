@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10CBD900C4A3B2F3BC9313AD /* PostureStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC9F216EFEFF4C102F6E317 /* PostureStatus.swift */; };
+		237EC3E44D93372179D99FA3 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAC9BBB6DA961EEABD4BB46 /* NotificationManager.swift */; };
+		23C72702D8AD04353D52C7B9 /* CalibrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D341A8CD1E41697D56A3C2F /* CalibrationView.swift */; };
+		240F3935D225A164661E1270 /* MotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CACD821BA1EAC8BA82BB1EF /* MotionManager.swift */; };
+		3164265C301E89E24D4BBE6B /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C9583084D0A5E3E737BAA7 /* WelcomeView.swift */; };
+		59325A56A85415B638A0A2E4 /* PostureInstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28ED6236B532123BB3A8C593 /* PostureInstructionsView.swift */; };
+		82F9B729C69DFC81C4DFEEC9 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DC303A96EC82CABE41C266D /* CameraManager.swift */; };
+		91278C92CDE10F93F07B0535 /* PostureGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9808CDE2FDA4BF6C82FD01EB /* PostureGuardApp.swift */; };
+		AE161E8EC22E34C1922849B5 /* CameraPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0431731E85AAC2F9C31049 /* CameraPreviewView.swift */; };
+		C9146EFE1D7C771207AE8EA5 /* CalibrationDoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EEDABA6572154F304E1F60 /* CalibrationDoneView.swift */; };
+		CFCEAF89BEDAB7655A6CCD5B /* PostureDetectionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF40945278265B2811C0FC4 /* PostureDetectionManager.swift */; };
+		DB34B4956EBB4E840137BDBF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B73DD20F1A885AA6E6F714 /* OnboardingView.swift */; };
+		E58A0B69ACF60FC6BBE0FA95 /* PostureAlertOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85D44D8ED84700A65947A71 /* PostureAlertOverlay.swift */; };
+		F90098F0906F8C1FFEA765B7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D2B52DFA90CD7322A7EC9E /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1AAC9BBB6DA961EEABD4BB46 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		1DC303A96EC82CABE41C266D /* CameraManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		28ED6236B532123BB3A8C593 /* PostureInstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureInstructionsView.swift; sourceTree = "<group>"; };
+		2CACD821BA1EAC8BA82BB1EF /* MotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionManager.swift; sourceTree = "<group>"; };
+		3D341A8CD1E41697D56A3C2F /* CalibrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationView.swift; sourceTree = "<group>"; };
+		74D2B52DFA90CD7322A7EC9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7F85056FC5A15232BB298862 /* PostureGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PostureGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9808CDE2FDA4BF6C82FD01EB /* PostureGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureGuardApp.swift; sourceTree = "<group>"; };
+		B4EEDABA6572154F304E1F60 /* CalibrationDoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationDoneView.swift; sourceTree = "<group>"; };
+		BC0431731E85AAC2F9C31049 /* CameraPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreviewView.swift; sourceTree = "<group>"; };
+		C5B73DD20F1A885AA6E6F714 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		C85D44D8ED84700A65947A71 /* PostureAlertOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureAlertOverlay.swift; sourceTree = "<group>"; };
+		CDC9F216EFEFF4C102F6E317 /* PostureStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureStatus.swift; sourceTree = "<group>"; };
+		DCF40945278265B2811C0FC4 /* PostureDetectionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostureDetectionManager.swift; sourceTree = "<group>"; };
+		E6C9583084D0A5E3E737BAA7 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0637AC869AA2CA9275EAE18E /* Detection */ = {
+			isa = PBXGroup;
+			children = (
+				1DC303A96EC82CABE41C266D /* CameraManager.swift */,
+				2CACD821BA1EAC8BA82BB1EF /* MotionManager.swift */,
+				DCF40945278265B2811C0FC4 /* PostureDetectionManager.swift */,
+			);
+			path = Detection;
+			sourceTree = "<group>";
+		};
+		5D3AB18F230222EA7F39D0DE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CDC9F216EFEFF4C102F6E317 /* PostureStatus.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		874592DAE6A49C81827619FD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				1AAC9BBB6DA961EEABD4BB46 /* NotificationManager.swift */,
+				9808CDE2FDA4BF6C82FD01EB /* PostureGuardApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ACE0ECA50CC154AFC19B4763 /* PostureGuard */ = {
+			isa = PBXGroup;
+			children = (
+				874592DAE6A49C81827619FD /* App */,
+				0637AC869AA2CA9275EAE18E /* Detection */,
+				5D3AB18F230222EA7F39D0DE /* Models */,
+				CD3910AA35DA256D0E5DDFAB /* Views */,
+			);
+			path = PostureGuard;
+			sourceTree = "<group>";
+		};
+		C24F70E16EFD71A73FECABDC /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B4EEDABA6572154F304E1F60 /* CalibrationDoneView.swift */,
+				3D341A8CD1E41697D56A3C2F /* CalibrationView.swift */,
+				C5B73DD20F1A885AA6E6F714 /* OnboardingView.swift */,
+				28ED6236B532123BB3A8C593 /* PostureInstructionsView.swift */,
+				E6C9583084D0A5E3E737BAA7 /* WelcomeView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		CD3910AA35DA256D0E5DDFAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BC0431731E85AAC2F9C31049 /* CameraPreviewView.swift */,
+				74D2B52DFA90CD7322A7EC9E /* ContentView.swift */,
+				C85D44D8ED84700A65947A71 /* PostureAlertOverlay.swift */,
+				C24F70E16EFD71A73FECABDC /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F0F33F4AF94F80945F29EE3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F85056FC5A15232BB298862 /* PostureGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8E686EAAADB468B12CACE62 = {
+			isa = PBXGroup;
+			children = (
+				FD8D83CEC5CE2F03C56ADEDF /* Sources */,
+				F0F33F4AF94F80945F29EE3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD8D83CEC5CE2F03C56ADEDF /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				ACE0ECA50CC154AFC19B4763 /* PostureGuard */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B392A9AFF0AD6D01747D26E /* PostureGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC84459D193709E520F81B12 /* Build configuration list for PBXNativeTarget "PostureGuard" */;
+			buildPhases = (
+				44700760958AD45E0AD4B91F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PostureGuard;
+			packageProductDependencies = (
+			);
+			productName = PostureGuard;
+			productReference = 7F85056FC5A15232BB298862 /* PostureGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E23BF909D8B1571B3CFC15F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = A5D99AE9C074508A1B085368 /* Build configuration list for PBXProject "PostureGuard" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = F8E686EAAADB468B12CACE62;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = F0F33F4AF94F80945F29EE3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B392A9AFF0AD6D01747D26E /* PostureGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44700760958AD45E0AD4B91F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9146EFE1D7C771207AE8EA5 /* CalibrationDoneView.swift in Sources */,
+				23C72702D8AD04353D52C7B9 /* CalibrationView.swift in Sources */,
+				82F9B729C69DFC81C4DFEEC9 /* CameraManager.swift in Sources */,
+				AE161E8EC22E34C1922849B5 /* CameraPreviewView.swift in Sources */,
+				F90098F0906F8C1FFEA765B7 /* ContentView.swift in Sources */,
+				240F3935D225A164661E1270 /* MotionManager.swift in Sources */,
+				237EC3E44D93372179D99FA3 /* NotificationManager.swift in Sources */,
+				DB34B4956EBB4E840137BDBF /* OnboardingView.swift in Sources */,
+				E58A0B69ACF60FC6BBE0FA95 /* PostureAlertOverlay.swift in Sources */,
+				CFCEAF89BEDAB7655A6CCD5B /* PostureDetectionManager.swift in Sources */,
+				91278C92CDE10F93F07B0535 /* PostureGuardApp.swift in Sources */,
+				59325A56A85415B638A0A2E4 /* PostureInstructionsView.swift in Sources */,
+				10CBD900C4A3B2F3BC9313AD /* PostureStatus.swift in Sources */,
+				3164265C301E89E24D4BBE6B /* WelcomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		654D8862AB6F5FA95200CA57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.postureapp.PostureGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		851FF464F62C05B325ED881A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.postureapp.PostureGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A5A29627C591855146AA39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = HP4Q7C8VC4;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE556964EEA9D18343FBB456 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5D99AE9C074508A1B085368 /* Build configuration list for PBXProject "PostureGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				851FF464F62C05B325ED881A /* Debug */,
+				654D8862AB6F5FA95200CA57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AC84459D193709E520F81B12 /* Build configuration list for PBXNativeTarget "PostureGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A5A29627C591855146AA39A /* Debug */,
+				AE556964EEA9D18343FBB456 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E23BF909D8B1571B3CFC15F /* Project object */;
+}
